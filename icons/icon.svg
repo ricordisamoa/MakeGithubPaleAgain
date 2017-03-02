@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="48" width="48">
+	<defs>
+		<path id="path" d="M 15.378907,48 6,48 C 2.676,48 0,45.324 0,42 L 0,6 C 0,2.676 2.676,0 6,0 l 0,0 22.621093,0"/>
+	</defs>
+	<use xlink:href="#path" fill="#0366d6"/>
+	<use xlink:href="#path" x="-48" y="-48" transform="scale(-1,-1)" fill="#4078c0"/>
+</svg>

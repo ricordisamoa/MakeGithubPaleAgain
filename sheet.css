@@ -1,0 +1,313 @@
+html body {
+	color: #333;
+}
+
+/* Links */
+body a {
+	color: #4078c0;
+}
+body .link-gray-dark:hover {
+	color: #4078c0 !important;
+}
+body .muted-link:hover {
+	color: #4078c0 !important;
+}
+
+/* Markdown */
+body .markdown-body .highlight pre,
+body .markdown-body pre {
+	background: #f7f7f7;
+}
+body .markdown-body code,
+body .markdown-body tt {
+	background: rgba(0,0,0,0.04);
+}
+
+/* Navigation etc. */
+body .repohead.experiment-repo-nav {
+	background-color: #fafafa;
+}
+body .subnav-item.selected,
+body .subnav-item.selected:hover,
+body .subnav-item.selected:focus {
+	background-color: #4078c0;
+	border-color: #4078c0;
+}
+body .numbers-summary a:hover {
+	color: #4078c0;
+}
+body .numbers-summary .octicon {
+	color: #999;
+}
+body .commit-tease {
+	color: #68777d;
+	background-color: #f2f9fc;
+	border-color: #c9e6f2;
+}
+body .file-header {
+	background-color: #f7f7f7;
+	border-bottom-color: #d8d8d8;
+}
+body table.files tr.navigation-focus td {
+	background: #f5f5f5;
+}
+body .Box-row--focus-gray.navigation-focus {
+	background: #f5f5f5;
+}
+body .Box-row--focus-blue.navigation-focus {
+	background: #f2f8fa;
+}
+body .boxed-group > h3,
+body .boxed-group .heading {
+	background: #f5f5f5;
+	border-color: #d8d8d8;
+}
+body .table-list-header {
+	background: #f8f8f8;
+	border-color: #e5e5e5;
+}
+
+/* Issues */
+body .issues-reset-query:hover {
+	color: #4078c0;
+}
+body .issues-reset-query:hover .issues-reset-query-icon {
+	background-color: #4078c0;
+}
+
+/* Buttons */
+body .btn {
+	background: linear-gradient(#fcfcfc, #eee);
+	border-color: #d5d5d5;
+}
+body .btn:focus,
+body .btn.focus {
+	border-color: #51a7e8;
+	box-shadow: 0 0 5px rgba(81,167,232,0.5);
+}
+body .btn:hover,
+body .btn:active,
+body .btn.zeroclipboard-is-hover,
+body .btn.zeroclipboard-is-active {
+	background: linear-gradient(#eee, #ddd);
+	border-color: #ccc;
+}
+body .btn:active,
+body .btn.selected,
+body .btn.zeroclipboard-is-active {
+	background: #dcdcdc;
+	border-color: #b5b5b5;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+body .btn-link {
+	color: #4078c0;
+}
+body .btn-outline {
+	color: #4078c0;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+}
+body .btn-outline:hover,
+body .btn-outline:active,
+body .btn-outline.selected,
+body .btn-outline.zeroclipboard-is-hover,
+body .btn-outline.zeroclipboard-is-active {
+	color: #fff;
+	background: #4078c0;
+	border-color: #4078c0;
+}
+body .btn-primary {
+	text-shadow: 0 -1px 0 rgba(0,0,0,0.15);
+	background: linear-gradient(#91dd70, #55ae2e);
+	border-color: #5aad35;
+}
+body .btn-primary:hover,
+body .btn-primary:active,
+body .btn-primary.zeroclipboard-is-hover,
+body .btn-primary.zeroclipboard-is-active {
+	background: linear-gradient(#85d063, #4f992f);
+	border-color: #519d30;
+}
+body .btn-primary:active,
+body .btn-primary.selected,
+body .btn-primary.zeroclipboard-is-active {
+	background: #4b912c;
+	border-color: #417e26;
+	box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+body .add-line-comment {
+	color: #fff;
+	background: linear-gradient(#5386c6, #4078c0);
+	box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+/* Dropdowns */
+body .dropdown-item:hover,
+body .dropdown-item.zeroclipboard-is-hover {
+	background-color: #4078c0;
+}
+body .toolbar-item .menu-target:hover,
+body .toolbar-item:hover {
+	color: #4078c0;
+}
+body .toolbar-item .menu-target:focus,
+body .toolbar-item:focus {
+	color: #4078c0;
+}
+body .toolbar-commenting .dropdown-item {
+	background: none;
+	border: 0;
+}
+body .toolbar-commenting .dropdown-item:hover {
+	color: #4078c0;
+}
+body .toolbar-commenting .dropdown-item:focus {
+	color: #4078c0;
+}
+
+/* Filters */
+body .filter-item.selected {
+	background-color: #4078c0;
+}
+
+/* Diffs */
+body .block-diff-deleted,
+body .text-red .block-diff-neutral {
+	background-color: #bd2c00;
+}
+body .block-diff-added,
+body .block-diff-neutral {
+	background-color: #55a532;
+}
+
+/* Menus */
+body .select-menu-modal {
+	color: #666;
+	border: 1px solid rgba(200,200,200,0.4);
+	box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+body .select-menu-item.navigation-focus,
+body .select-menu-item.navigation-focus.selected,
+body .select-menu-item.navigation-focus.select-menu-action,
+body .select-menu-item.navigation-focus .description-inline {
+	background: #4078c0;
+}
+body .select-menu-header,
+body .select-menu-divider {
+	background: #f5f5f5;
+	border-bottom-color: #e5e5e5;
+}
+
+/* Timeline */
+body .timeline-commits .hidden-text-expander .ellipsis-expander:hover {
+	background-color: #4078c0;
+}
+body .timeline-comment-header {
+	color: #767676;
+	background-color: #f7f7f7;
+}
+
+/* Discussion items */
+body .discussion-item-merged .discussion-item-icon {
+	background-color: #6e5494;
+}
+
+/* States */
+body .state-open,
+body .state-proposed,
+body .state-reopened {
+	background-color: #6cc644;
+}
+body .state-merged {
+	background-color: #6e5494;
+}
+body .state-closed {
+	background-color: #bd2c00;
+}
+
+/* Octicons */
+body .closed.octicon,
+body .reverted.octicon {
+	color: #bd2c00;
+}
+body .open.octicon {
+	color: #6cc644;
+}
+body .merged.octicon {
+	color: #6e5494;
+}
+
+/* Branch clean */
+body .branch-action-state-clean .branch-action-body {
+	border-color: #95c97e;
+}
+body .branch-action-state-clean .branch-action-body::before {
+	border-right-color: #95c97e;
+}
+body .branch-action-state-clean .branch-action-icon {
+	background-color: #6cc644;
+}
+
+/* Branch unknown/unstable */
+body .branch-action-state-unknown .branch-action-icon,
+body .branch-action-state-unstable .branch-action-icon {
+	background-color: #cea61b;
+}
+body .branch-action-state-unknown .branch-action-body,
+body .branch-action-state-unstable .branch-action-body {
+	border-color: #e2cc7a;
+}
+body .branch-action-state-unknown .branch-action-body::before,
+body .branch-action-state-unstable .branch-action-body::before {
+	border-right-color: #e2cc7a;
+}
+
+/* Branch merged */
+body .branch-action-state-merged .branch-action-icon {
+	background-color: #6e5494;
+}
+body .branch-action-state-merged .branch-action-body {
+	border-color: #cbc0db;
+}
+body .branch-action-state-merged .branch-action-body::before {
+	border-right-color: #cbc0db;
+}
+
+/* Branch dirty etc. */
+body .branch-action-state-dirty .branch-action-icon,
+body .branch-action-state-closed-dirty .branch-action-icon,
+body .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-icon {
+	background-color: #888;
+}
+body .branch-action-state-dirty .branch-action-body,
+body .branch-action-state-closed-dirty .branch-action-body,
+body .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body {
+	border-color: #ddd;
+}
+body .branch-action-state-dirty .branch-action-body::before,
+body .branch-action-state-closed-dirty .branch-action-body::before,
+body .is-rebasing .branch-action-state-dirty-if-rebasing .branch-action-body::before {
+	border-right-color: #ddd;
+}
+
+/* Branch error */
+body .branch-action-state-error .branch-action-icon {
+	background-color: #d84837;
+}
+body .branch-action-state-error .branch-action-body {
+	border-color: #e97a74;
+}
+body .branch-action-state-error .branch-action-body::before {
+	border-right-color: #e97a74;
+}
+
+/* Completeness indicators */
+body .completeness-indicator-success {
+	background-color: #6cc644;
+}
+body .completeness-indicator-error {
+	background-color: #bd2c00;
+}
+body .completeness-indicator-problem {
+	background-color: #888;
+}

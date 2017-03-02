@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Make GitHub Pale Again",
+	"version": "0.1.0",
+	"description": "Extension to make GitHub pale again!",
+	"icons": {
+		"48": "icons/48.png",
+		"96": "icons/96.png"
+	},
+	"content_scripts": [
+		{
+			"matches": ["https://github.com/*"],
+			"css": ["sheet.css"]
+		}
+	]
+}
