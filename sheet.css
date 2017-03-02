@@ -12,6 +12,9 @@ body .link-gray-dark:hover {
 body .muted-link:hover {
 	color: #4078c0 !important;
 }
+body .notifications .notifications-more > a {
+	color: #4078c0;
+}
 
 /* Markdown */
 body .markdown-body .highlight pre,
@@ -140,6 +143,14 @@ body .add-line-comment {
 	background: linear-gradient(#5386c6, #4078c0);
 	box-shadow: 0 1px 4px rgba(0,0,0,0.15);
 }
+body .ajax-pagination-form .ajax-pagination-btn {
+	color: #4078c0;
+	border-color: #e5e5e5;
+}
+body .ajax-pagination-form .ajax-pagination-btn:hover,
+body .ajax-pagination-form .ajax-pagination-btn:focus {
+	background-color: #f5f5f5;
+}
 
 /* Dropdowns */
 body .dropdown-item:hover,
@@ -205,6 +216,13 @@ body .timeline-commits .hidden-text-expander .ellipsis-expander:hover {
 body .timeline-comment-header {
 	color: #767676;
 	background-color: #f7f7f7;
+}
+body .timeline-comment.current-user .timeline-comment-header {
+	background-color: #f2f8fa;
+}
+body .timeline-comment-action:hover,
+body .timeline-comment-action:focus {
+	color: #4078c0;
 }
 
 /* Discussion items */
