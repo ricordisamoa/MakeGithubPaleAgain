@@ -152,6 +152,33 @@ body .ajax-pagination-form .ajax-pagination-btn:focus {
 	background-color: #f5f5f5;
 }
 
+/* Pagination */
+body .pagination a,
+body .pagination span,
+body .pagination em {
+	color: #4078c0;
+	border-color: #e5e5e5;
+}
+body .pagination a:hover,
+body .pagination a:focus,
+body .pagination span:hover,
+body .pagination span:focus,
+body .pagination em:hover,
+body .pagination em:focus {
+	border-color: #e5e5e5;
+}
+body .pagination .current,
+body .pagination .current:hover {
+	background-color: #4078c0;
+	border-color: #4078c0;
+}
+body .pagination .gap,
+body .pagination .disabled,
+body .pagination .gap:hover,
+body .pagination .disabled:hover {
+	background-color: #fafafa;
+}
+
 /* Dropdowns */
 body .dropdown-item:hover,
 body .dropdown-item.zeroclipboard-is-hover {
