@@ -219,6 +219,9 @@ body .block-diff-neutral {
 }
 
 /* Menus */
+body .select-menu-filters {
+	background-color: #f8f8f8;
+}
 body .select-menu-modal {
 	color: #666;
 	border: 1px solid rgba(200,200,200,0.4);
@@ -253,14 +256,29 @@ body .timeline-comment-action:focus {
 }
 
 /* Discussion items */
+body .discussion-item-icon {
+	color: #767676;
+	background-color: #f3f3f3;
+}
 body .discussion-item-merged .discussion-item-icon {
 	background-color: #6e5494;
+}
+body .discussion-item-review .file-header {
+	background-color: #fafafa;
+	border-bottom-color: #ddd;
+}
+
+/* Review threads */
+body .review-thread-reply {
+	background-color: #fafafa;
+	border-top-color: #e5e5e5;
 }
 
 /* States */
 body .state-open,
 body .state-proposed,
-body .state-reopened {
+body .state-reopened,
+body .State--green {
 	background-color: #6cc644;
 }
 body .state-merged {
@@ -355,4 +373,10 @@ body .completeness-indicator-error {
 }
 body .completeness-indicator-problem {
 	background-color: #888;
+}
+
+/* Misc */
+body .commit-ref {
+	color: #336479;
+	background-color: #e8f0f8;
 }
