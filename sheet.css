@@ -255,6 +255,17 @@ body .timeline-comment-action:focus {
 	color: #4078c0;
 }
 
+/* Commit heading */
+body .full-commit .btn-outline,
+body .full-commit .btn-outline:disabled {
+	background-color: transparent;
+	border-color: #cedee5;
+}
+body .full-commit .btn-outline:not(:disabled):hover {
+	color: #4078c0;
+	border-color: #4078c0;
+}
+
 /* Discussion items */
 body .discussion-item-icon {
 	color: #767676;
